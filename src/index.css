@@ -94,8 +94,7 @@ input {
 .list ul {
   list-style: none;
   width: 80%;
-  overflow: scroll;
-
+  overflow: hidden;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 1.2rem;
@@ -107,6 +106,11 @@ input {
   display: flex;
   align-items: center;
   gap: 1.2rem;
+}
+
+.list li .packed {
+  text-decoration: line-through;
+  opacity: 0.5;
 }
 
 input[type="checkbox"] {
