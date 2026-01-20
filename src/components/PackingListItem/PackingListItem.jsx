@@ -1,5 +1,4 @@
 function PackingListItem({ data: item, onDeleteItem, onToggleItem }) {
-  console.log(item);
   return (
     <li>
       <input

@@ -28,6 +28,7 @@ function Form({ onAddItem }) {
         placeholder="Item..."
         value={description}
         onChange={(e) => setDescription(e.target.value)}
+        autoFocus
       />
       <button>Add</button>
     </form>
