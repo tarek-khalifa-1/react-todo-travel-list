@@ -1,8 +1,8 @@
 import { useState } from "react";
-import Form from "./components/Form/Form";
-import Logo from "./components/Logo/Logo";
-import PackingList from "./components/PackingList/PackingList";
-import Stats from "./components/Stats/Stats";
+import Form from "./Form/Form";
+import Logo from "./Logo/Logo";
+import PackingList from "./PackingList/PackingList";
+import Stats from "./Stats/Stats";
 
 function App() {
   const [items, setItems] = useState([]);
